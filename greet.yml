@@ -1,6 +1,12 @@
-msg: I am done in this college the dark
+msg: I am done in this college in the dark
 
 server:
   port: 8083
 
 debug: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
